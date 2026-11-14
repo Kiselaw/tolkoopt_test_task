@@ -1,0 +1,15 @@
+[project]
+name = "tolkoopt-test-task"
+version = "0.1.0"
+description = "Тестовое задание"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+python_files = ["starter.py"]
